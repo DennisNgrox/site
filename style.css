@@ -1,0 +1,431 @@
+@charset 'UTF-8';
+
+body, ul, li{  /*Edição da Pagina*/
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+	
+}
+
+header {
+    width: 100%;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header img {
+    margin: 0px 0px;
+}
+
+header div{
+    margin: -5px 20px;
+}
+header h1 {
+    width: 100%;
+    font-size: 20px;
+    text-align: center;
+    color: #c00;
+}
+
+.logo{
+	width: 25px;
+}
+
+#img{
+    width: 500px;
+}
+
+.sants {
+    width: 120px;
+    display: inline;
+}
+a{ 
+	text-decoration: none;
+	color: rgb(0, 0, 0);
+	margin: 0px 10px;
+}
+
+img.logo{
+	margin: 10px 0px;
+	width: 100px;
+	text-align: center;
+	padding: 0px 10px;
+	border-radius: 12px;
+	
+}
+
+.header{
+	background-color: rgb(255, 255, 255);
+	display: flex;;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	padding: 25px 80px;
+	align-items: center;
+
+}
+
+.menu{
+	display: flex;
+    flex-wrap: wrap;
+	flex-direction: row;
+    font-size: 25px;
+    font-weight: bolder;
+}
+
+.menu li {
+    text-align: center;
+    background-color: white;
+
+}
+
+.menu li a {
+	display: block
+}
+
+.menu li a:hover{
+    color: rgb(41, 79, 160);
+    transform: scale(1.1);
+}
+
+div.cabecalho2 {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #c00;
+    flex-direction: row;
+    width: 100%;
+    height: 300px;
+}
+
+section.cabeca-flex{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 370px;
+    background-color: #c00;
+}
+
+.flex-container {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 1280px;
+  margin-right: auto;
+  margin-left: auto;
+  justify-content: space-between ;
+}
+
+.imagem {
+
+    width: 50%;
+    text-align: center;
+    display: block;
+    align-items: center;
+    text-align: center;
+}
+
+img {
+    margin-top: 20px;
+    max-width: 100%; 
+   
+}
+
+h2 {
+    font-family: Arial, sans-serif ;
+    font-weight: lighter;
+    font-size: 37px;
+    color: white;
+}
+
+.texto-flex{
+    
+    flex-direction: row;
+    align-items: flex-start;
+    width: 50%;
+    line-height: 1;
+    
+}
+
+.texto{
+    font-family: Arial, sans-serif ;
+    font-weight: 700;
+    color: white;
+    font-size: 37px;
+    margin: 80px 0px;
+    text-align: center;
+    width: 100%;
+    line-height: 1;
+    
+} 
+
+.p-color{
+    line-height: 1;
+    color: orange;
+}
+
+.iframe {
+    width: 100%;
+    padding: 0px 20px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.corpo-flex{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 150px;
+    width: 100%;
+    height: 370px;
+    flex-basis: 100%;
+    text-align: center;
+}
+
+.iframe {
+
+    width: 100%;
+    display: block;
+}
+
+.escritos {
+    margin-top: -10px;
+    background-color: #c00;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    text-align: center;
+    align-items: center;
+}
+
+.escritos div h2 {
+    font-family:Arial, sans-serif ;
+    color: rgb(255, 255, 255);
+    font-weight: bolder;
+    text-align: center;
+    font-size: 40px;
+    line-height: 1;
+}
+
+.svg {
+    width: 100%;
+}
+
+.svg-abaixo {
+    margin-top: -2px;
+    width: 100%;
+}
+
+.escritos-segundo {
+    margin-top: -10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    text-align: center;
+    align-items: center;
+}
+
+
+.escritos-segundo div h2 {
+    font-family: Arial, sans-serif ;
+    color: black;
+    text-align: center;
+    font-size: 40px;
+    line-height: 1;
+    font-weight: 700;
+}
+
+.escritos-terceiro {
+    margin-top: -10px;
+    background-color: #c00;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    text-align: center;
+    align-items: center;
+}
+
+.escritos-terceiro div h2{
+    font-family:Arial, sans-serif ;
+    color: rgb(255, 255, 255);
+    font-weight: bolder;
+    text-align: center;
+    font-size: 40px;
+    line-height: 1;
+}
+@media (max-width: 980px) {
+
+    .imagem {
+        width: 100%;
+        
+    }
+
+    .texto-flex {
+        width: 100%;
+        
+    }
+
+    .iframe {
+        margin-top: 300px;
+    }
+
+    .texto h2{
+        color: black;
+    }
+
+    .texto .p-black {
+        color: black;
+    }
+}
+
+@media(max-width: 495px) {
+    .iframe{
+        margin-top: 370px;
+    }
+}
+
+footer {
+    justify-content: space-between;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+footer h2 {
+    color: black;
+    font-size: 37px;
+    font-weight: bold;
+}
+
+footer div {
+    text-align: center;
+    width: 33%;
+}
+
+
+footer p{
+    font-size: 22px;
+    display: flex;
+    margin: 5px auto;
+}
+
+footer .contact {
+    text-align: center;
+    
+}
+
+.contact p {
+    margin-left: 20px;
+}
+
+.redessociais img {
+    width: 120px;
+}
+
+.whats {
+    width: 30px;
+    height: 30px;
+    margin: 0 10px;
+    align-items: center;
+}
+
+.cel {
+    width: 30px;
+    height: 30px;
+    margin: 5px 10px;
+    align-items: center;
+}
+
+@media (max-width: 708px) {
+
+    footer .contact {
+        text-align: center;
+        display: block;
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    footer p{
+        display: block;
+    }
+
+    .redessociais {
+        display: block;
+        width: 100%;
+    }
+
+    .somos {
+        display: block;
+        width: 100%;
+    }
+}
+.elementor-shape-fill {
+    background-color: red;
+    color: red;
+}
+
+.texto-emprestimo {
+    margin-top: -2px;
+    text-align: left;
+    display: flex;
+    flex-wrap: wrap;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: white;
+}
+
+.texto-emprestimo p {
+    margin: 10px;
+    width: 100%;
+}
+
+.texto-emprestimo p span {
+    margin: 7px;
+}
+
+.ajuste-texto {
+    margin: 0 auto;
+    width: 80%;
+}
+.elementor{
+    margin-top: -2px;
+}
+.elementor[data-negative=false] {
+    transform: rotate(180deg);
+}
+
+#online {
+ 
+    transition: all 0.5s ease-in-out;
+}
+
+#facil {
+   
+    transition: all 0.5s ease-in-out;
+}
+
+#seguro {
+    
+    transition: all 0.5s ease-in-out;
+}
+
+.rotated {
+    transform: scale(1.1);
+    transition: all 0.5s ease-in-out;
+}
+
+.rotated2 {
+    transform: scale(1);
+    transition: all 0.5s ease-in-out;
+}
+
+.desaparecer {
+    opacity: 0;
+    transition: all 0.3s;
+}
+
+@media (max-width: 405px) {
+    header{
+        justify-content: center;
+    }
+}
